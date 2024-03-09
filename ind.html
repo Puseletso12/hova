@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <!---custom css link--->
+    <link rel="stylesheet" href="n.css" />
+    <!--boxicons  -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    />
+    <!-- animation scrol -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- fontawsem -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <!-- Navbar Section Start-->
+
+    <header>
+      <a class="navbar-brand me-5 fw-bold fs-3" href="index.php">
+        <img
+          class="logo"
+          src="./assets/logo.jpg"
+          width="230"
+          height="130"
+          alt="logo"
+        />
+      </a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+
+      <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </header>
+
+    <!-- Navbar Section End-->
+    <!-- Home Section Start-->
+    <section class="home" id="home">
+      <div class="home-text">
+        
+        <a href="#about" class="btn">About Me</a>
+      </div>
+    </section>
+    <!-- Home Section End-->
+
+    <!-- About Section Start-->
+    <section class="about background" id="about">
+      <div class="about-img" data-aos="fade-up" data-aos-duration="1500">
+        <img src="./assets/image3.jpg" alt="" />
+      </div>
+      <div class="about-content" data-aos="fade-up" data-aos-duration="1500">
+        <h2 style="color: #12141c">About Us</h2>
+        <h4>Hova's Power Solutions</h4>
+        <p>
+          Hova's Power Solution is a leading provider of comprehensive energy
+          solutions, specializing in the supply, installation, and maintenance
+          of inverters, generators, and solar power systems. With a commitment
+          to sustainability and reliability, we aim to empower businesses and
+          households with efficient and eco-friendly energy solutions. Our
+          portfolio encompasses a wide range of industries, including
+          construction, telecommunications, data centres, shopping centres,
+          hospitality, and more, both domestically and internationally.
+        </p>
+        <!-- <a href="#contact" class="btn">Contact Me</a> -->
+        <form
+          method="get"
+          action="https://drive.google.com/file/d/1nhJvqCZR0aq0yyr60_Mfrk4iFM4brObn/view?usp=sharing"
+        >
+          <button class="btn" type="submit">Business Profile</button>
+        </form>
+        <div class="social-icons" style="padding-top: 30px">
+          <a
+            href="https://www.instagram.com/hovaspower_?igsh=MW81M2wxdjAyYmpldw=="
+            target="_blank"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a href="https://wa.me/+27762321811" target="_blank"
+            ><i class="fa-brands fa-whatsapp"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End-->
+
+    <!-- Services Section Start-->
+    <section class="skills" id="skills">
+      <div class="heading" data-aos="fade-up" data-aos-duration="1500">
+        <h2>Products</h2>
+      </div>
+      <div class="services-content">
+        <div
+          class="box"
+          data-aos="fade-up"
+          data-aos-delay="500"
+          data-aos-duration="1500"
+        >
+          <img
+            src="https://sable-energy.co.za/wp-content/uploads/2023/10/1and2kva.jpg"
+            alt=""
+            style="width: 58px; height: 50px"
+          />
+          <h3>Units</h3>
+          <p style="color: #2276b9">xxxxxxx</p>
+        </div>
+        <div
+          class="box"
+          data-aos="fade-up"
+          data-aos-delay="500"
+          data-aos-duration="1500"
+        >
+          <img src="https://sable-energy.co.za/wp-content/uploads/2023/11/Battery-Image.png" alt="" style="width: 58px; height: 50px" />
+          <h3>Battery Banks</h3>
+          <p style="color: #2276b9">
+            xxxxxxx
+          </p>
+        </div>
+        <div
+          class="box"
+          data-aos="fade-up"
+          data-aos-delay="500"
+          data-aos-duration="1500"
+        >
+          <img
+            src="https://sable-energy.co.za/wp-content/uploads/2023/10/1.png"
+            alt=""
+            style="width: 58px; height: 50px"
+          />
+          <h3>Geysers</h3>
+          <p style="color: #2276b9">xxxxxxx</p>
+        </div>
+      </div>
+    </section>
+    <!-- Services Section End -->
+
+    <!-- Portfolio Section start -->
+    <!-- <section class="projects background" id="projects">
+      <div class="heading" data-aos="fade-up" data-aos-duration="1500">
+        <h2 style="color: #021531">Projects</h2>
+      </div>
+      <div class="portfolio-content">
+        <div class="port" data-aos="fade-up" data-aos-duration="1500">
+          <iframe
+            width="300"
+            height="240"
+            src="https://www.youtube.com/embed/ayPDR8Q3gYI"
+            frameborder="0"
+            allowfullscreen
+            style="padding: 5px 0px 5px 5px"
+          ></iframe>
+          <div class="main-box">
+            <div class="box-text">
+              <h5>Netflix Clone</h5>
+            </div>
+            <div class="box-icon"></div>
+          </div>
+          <p>School Project: Front-end based</p>
+          <p>using JavaScript</p>
+          <div style="margin-top: 8px">
+            <a
+              class="btn"
+              href="https://github.com/Karabo-Dikolomela/Online_Store_Backend"
+              style="padding: 5px 10px"
+              >code</a
+            >
+          </div>
+        </div>
+        <div class="port" data-aos="fade-up" data-aos-duration="1500">
+          <iframe
+            width="300"
+            height="240"
+            src="https://www.youtube.com/embed/CFjsiaxjxGs"
+            frameborder="0"
+            allowfullscreen
+            style="padding: 5px 0px 5px 5px"
+          ></iframe>
+          <div class="main-box">
+            <div class="box-text">
+              <h5>Online Store</h5>
+            </div>
+            <div class="box-icon"></div>
+          </div>
+          <p>School Project: Online Store back-end</p>
+          <p></p>
+          <p>using PHP/JS//Bootstrap</p>
+          <div style="margin-top: 8px">
+            <a
+              class="btn"
+              href="https://github.com/Karabo-Dikolomela/Netflix-Clone"
+              style="padding: 5px 10px"
+              >code</a
+            >
+          </div>
+        </div>
+        <div class="port" data-aos="fade-up" data-aos-duration="1500">
+          <iframe
+            width="300"
+            height="240"
+            src="https://youtube.com/embed/cb4ou3Csvg0"
+            frameborder="0"
+            allowfullscreen
+            style="padding: 5px 0px 5px 5px"
+          ></iframe>
+          <div class="main-box">
+            <div class="box-text">
+              <h5>CodeSpace LMS Web Scraper</h5>
+            </div>
+            <div class="box-icon"></div>
+          </div>
+          <p>Collaboration project: Web Scraper</p>
+          <p></p>
+          <p>using Python and Flask on Jupyter Notebook</p>
+          <div style="margin-top: 8px">
+            <a
+              class="btn"
+              href="https://github.com/Bukho-Cosa/Webscraper_V2"
+              style="padding: 5px 10px"
+              >code</a
+            >
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Portfolio Section End -->
+
+    <!-- Contact Section Start -->
+    <section
+      id="contact"
+      class="contact"
+      data-aos="fade-up"
+      data-aos-duration="1500"
+    >
+      <div class="contact-text">
+        <h2>Contact Us</h2>
+        <div class="contact-list">
+          <li>Limpopo, South Africa</li>
+          <li>madidimalomabitsela@gmail.com</li>
+          <li>+27 76 232 1811</li>
+        </div>
+        <div class="social-icons">
+            <a
+            href="https://www.instagram.com/hovaspower_?igsh=MW81M2wxdjAyYmpldw=="
+            target="_blank"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a href="https://wa.me/+27762321811" target="_blank"
+            ><i class="fa-brands fa-whatsapp"></i
+          ></a>
+        </div>
+      </div>
+      <div class="contact-form">
+        <form
+          action="https://formsubmit.co/karabodikolomela15@gmail.com"
+          method="POST"
+        >
+          <input type="text" placeholder="Name" name="name" />
+          <input type="email" placeholder="Email" name="email" />
+          <input type="text" placeholder="Enter Your Subject" name="subject" />
+          <textarea
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Enter Your Message"
+            name="textarea"
+          >
+          </textarea>
+          <input type="submit" value="Submit" class="send" />
+        </form>
+      </div>
+    </section>
+
+    <!-- Contact Section End -->
+    <div class="hr"></div>
+    <div class="copyright">
+      <!-- <div class="social-icons">
+        <span>Follow Me:</span>
+        <a
+            href="https://www.instagram.com/hovaspower_?igsh=MW81M2wxdjAyYmpldw=="
+            target="_blank"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a href="https://wa.me/+27762321811" target="_blank"
+            ><i class="fa-brands fa-whatsapp"></i
+          ></a>
+      </div> -->
+    </div>
+
+    <!---custom js link--->
+    <script src="j.js"></script>
+    <!-- animation scrol -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
