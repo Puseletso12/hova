@@ -995,7 +995,7 @@ img {
 .header__nav-phone:hover {
   border: 1px solid #f5ff00;
   border-radius: 30px;
-  background-color: #f5ff00;
+  /* background-color: #f5ff00; */
   color: #16191e;
 }
 
